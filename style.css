@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: linear-gradient(#000000 , #151027);
+}
+
+HTML{
+    scroll-behavior: smooth;
+}
+
+.header{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    border-bottom: 1px solid #cccccc2a;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+
+.logo{
+    color: #ffffff;
+    font-size: 25px;
+    text-decoration: none;
+}
+.tag{
+    color: #b6b6b6;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 90px;
+    padding-top: 30px;
+    max-width: 2100px;
+    margin: auto;
+    width: 80%;
+}
+li a{
+    padding: 10px 20px;
+    margin-left: 20px;
+    color: #d4cdcd;
+    text-decoration: none;
+    font-weight: 700;
+}
+li a:hover{
+    color: #ffffff;
+}
+
+.Content{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 250px;
+    padding-bottom: 80px;
+    margin: auto;
+}
+
+.text h1{
+    margin-bottom: 10px;
+    font-size: 45px;
+    text-align: center;
+}
+
+.text a{
+    color: #ffffff;
+    text-align: center;
+}
+
+.text p{
+    font-size: 16px;
+    text-align: center;
+    color: #b8b4b4;
+}
+.t7t{
+    margin-bottom: 40px;
+}
+.all-about{
+    padding-top: 5rem;
+}
+.about a{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1;
+    margin: 200px;
+    background-color: #4b64f5;
+    font-size: 16px;
+    font-weight: 600;
+}
+.about a:hover{
+    background-color: #2d46d8;
+}
+.about-sec{
+    padding: 40px;
+    max-width: 2100px;
+    width: 80%;
+    margin: auto;
+}
+.about-sec h1{
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+.about-content{
+    align-items: center;
+    margin-top: 25px;
+}
+.about-one p{
+    font-size: 20px;
+    font-weight: 300;
+
+}
+
+.about-one strong{
+    font-weight: 650;
+}
+
+.all-skills{
+    background-color: #000000;
+
+}
+
+.skills{
+    width: 80%;
+    max-width: 2100px;
+    margin: auto;
+    padding-bottom: 70px;
+}
+
+.skill-head, .serv-head, .prot-head, .supp-head{
+    padding-top: 40px;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+
+.all-serv{
+
+    padding-top: 2rem;
+}
+
+.Serv{
+    width: 80%;
+    margin: auto;
+    max-width: 2100px;
+}
+
+.serv-item {
+    display: flex;
+    align-items: center;
+    background-color: #77777709;
+    padding: 15px 20px;
+    border-radius: 10px;
+    gap: 20px;
+    row-gap: 10px;
+    color: #ffff;
+    transition: 0.5s;
+}
+
+
+.serv-item:hover{
+    transform: scale(1.08);
+}
+
+.serv-item img{
+    width: 50px;
+}
+
+.Serv-cont{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 50px;
+    row-gap: 80px;
+}
+
+
+.all-protfolio{
+    padding-top: 2rem;
+}
+
+.prot-head h1{
+    width: 80%;
+    margin: auto;
+}
+.cont-protfolio{
+    width: 60%;
+    max-width: 1900px;
+    margin: auto;
+}
+
+.cont-protfolio{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.prot-items{
+
+    padding: 0 0 30px 0;
+    border-radius: 30px 30px 20px 20px;
+    width: fit-content;
+    background-color: #3b3b3b1a;
+    transition: 0.5s;
+}
+
+.prot-items:hover{
+    transform: scale(1.05);
+}
+
+.cont-protfolio img{
+
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    border-bottom: 2px solid #ccc;
+}
+
+.prot-content{
+    padding: 20px 14px 30px;
+}
+
+.prot-content a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.prot-content h3{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+
+.supp{
+    max-width: 1900px;
+    margin: auto;
+    width: 80%;
+}
+
+.supp-main{
+    background-color: #3838380c;
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    box-shadow: 3px 3px 20px #0000003a;
+    padding: 40px 60px;
+    border-radius: 10px;
+    column-gap: 150px;
+
+    
+}
+
+.supp-main input, textarea{
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 3px;
+    margin: 18px 0;
+    outline: none;
+    background-color: #2e2e2e80;
+    border: 0;
+    color: #fff;
+    
+}
+
+.supp-main img{
+    width: 500px;
+}
+
+.supp-main button{
+    background-color: #4d58bc;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+}
+
+.supp-main button:hover{
+    background-color: #2c0f96;
+
+}
+
+.footer{
+    background-color: #151027;
+    padding: 1rem 0;
+    text-align: center;
+}
+@media (max-width: 1468px){
+    .cards{
+        flex-direction: column;
+    }
+    
+    .Serv-cont{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 100px;
+    }
+}
+@media (max-width: 1300px){
+    .supp-main{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 100px;
+    }
+
+    .supp-main{
+        grid-template-columns: 1fr;
+    }
+    .supp-main img{
+        width: 300px;
+        margin: auto
+    }
+}
+@media (max-width: 1000px){
+    .header ul{
+        display: block;
+        text-align: center;
+        padding: 30px 0px;
+    }
+
+    .header ul li{
+        margin-top: 20px;
+    }
+    
+    .header ul li a{
+        margin: 0 5px;
+    }
+    
+    .Content{
+        flex-direction: column;
+    }
+    
+    .Content img{
+        margin-top: 200px;
+        max-width: 400px;
+    }
+
+    .about-content{
+        flex-direction: column;
+    }
+
+    .about-one{
+        margin-bottom: 100px;
+        width: 100%;
+    }
+    .about-one p{
+        width: 100%;
+    }
+
+    .cards{
+        flex-direction: column;
+    }
+
+    .Serv-cont ,.cont-protfolio, .supp-main{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 100px;
+    }
+
+    .supp-main{
+        grid-template-columns: 1fr;
+    }
+    .supp-main img{
+        width: 300px;
+        margin: auto
+    }
+}
+
+@media (max-width: 900px){
+
+
+    .supp-main img{
+        width: 300px;
+    }
+
+    
+    .Serv-cont ,.cont-protfolio, .supp-main{
+        grid-template-columns: 1fr;
+    }
+}
